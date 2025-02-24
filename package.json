@@ -1,10 +1,14 @@
 {
   "name": "wot-design-uni",
-  "version": "1.7.1",
+  "version": "1.7.0",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/Moonofweisheng/wot-design-uni.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
     "dev:app": "uni -p app",
